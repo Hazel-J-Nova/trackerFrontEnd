@@ -1,0 +1,24 @@
+.sideBar__styles {
+  /* position: fixed;
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0; */
+  /* left: -100%; */
+  transition: 850ms;
+  background-color: aqua;
+  z-index: 1000;
+}
+
+.sideBar__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}

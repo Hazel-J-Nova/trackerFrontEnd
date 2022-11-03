@@ -1,0 +1,32 @@
+.card__body {
+  border: solid red 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 10px 5px 0px 4px rgba(0, 0, 0, 0.9);
+  min-height: fit-content;
+  /* min-width: fit-content; */
+  max-width: 20vw;
+  background-color: bisque;
+  border: solid black 1px;
+  /* padding: 3rem; */
+  margin: 5rem;
+}
+
+image {
+  max-width: 100%;
+  display: block;
+}
+
+/* .card__Image {
+  max-width: 60%;
+  width: 50px;
+  border: solid red 2px;
+} */
+
+
+.card__content{
+    min-height: 100px;
+}
